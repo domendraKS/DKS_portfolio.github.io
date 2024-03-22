@@ -356,9 +356,12 @@ main {
 }
 
 #aboutMe .about-col .info-col .icon-list-col ul li span {
-  color: var(--textColor);
   font-size: 15px;
   font-weight: 500;
+}
+
+#aboutMe .about-col .info-col .icon-list-col ul li span a {
+  color: var(--textColor);
 }
 
 #aboutMe .about-col .info-col .icon-list-col .left-icon-list {

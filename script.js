@@ -8,10 +8,15 @@ menuBtn.addEventListener("click", function (e) {
 
 /*--==Typing Effect==--*/
 let typed = new Typed(".auto-input", {
-  strings: ["Fresher", "Front-End Developer", "Back-End developer in PHP & mysql"],
-  typedSpeed: 100,
+  strings: [
+    "have 6 Months of Experience in Prixso Software",
+    "am MERN Stack Developer",
+    "know basics of MySQL and MongoDB",
+    "am Full Stack Developer",
+  ],
+  typedSpeed: 200,
   backSpeed: 100,
-  backDelay: 3000,
+  backDelay: 4000,
   loop: true,
 });
 
@@ -22,7 +27,7 @@ let navLinks = document.querySelectorAll("nav ul li a");
 let sections = document.querySelectorAll("section");
 
 window.addEventListener("scroll", function () {
-  const scrollPos = window.scrollY+20;
+  const scrollPos = window.scrollY + 20;
   sections.forEach((section) => {
     if (
       scrollPos > section.offsetTop &&
