@@ -9,9 +9,9 @@ menuBtn.addEventListener("click", function (e) {
 /*--==Typing Effect==--*/
 let typed = new Typed(".auto-input", {
   strings: [
-    "have 6 Months of Experience in Prixso Software",
-    "am MERN Stack Developer",
-    "know basics of MySQL and MongoDB",
+    "have over 1 year of experience.",
+    "am Java Developer",
+    "know basics of MySQL",
     "am Full Stack Developer",
   ],
   typedSpeed: 200,
